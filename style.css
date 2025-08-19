@@ -113,3 +113,12 @@ p.namel {
 	padding-left : 1.5em;
 	line-height: 0.8em; 
 }
+.container_Research {
+	width: 80%;
+	margin-left: 10%;
+	padding: 1rem;
+}
+.impact:first-letter {
+	font-weight: bold;
+	font-size: 200%;
+}
