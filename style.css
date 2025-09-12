@@ -98,7 +98,7 @@ h4.title {
 	text-align : left;
 	letter-spacing : 1px;
 	padding-left : 0.5em;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	line-height : 2em;	/* 領域（行）の高さ＝フォントの１．５倍 */
 	border-left-width : 1em;	/* 左境界線をマークとして使用 */
 	border-left-style : solid;	/* 左境界線（マーク）の種類 */
@@ -107,18 +107,63 @@ h4.title {
 	border-bottom-style : solid;	/* 下境界線の種類 */
 	border-bottom-color : #0FBCED;/* 下境界線の色 */
 }
+
 p.namel {
 	color :black;
 	text-align : left;
 	padding-left : 1.5em;
 	line-height: 0.8em; 
 }
+p.rtitle {
+	margin-top: 2px;
+	margin-bottom: 2em;
+}
+
 .container_Research {
 	width: 80%;
 	margin-left: 10%;
 	padding: 1rem;
 }
+h3.title {
+	font-weight: bold;
+	font-size: 150%;
+	text-align : left;
+	letter-spacing : 1px;
+	margin-bottom: 5px;
+	line-height : 2em;
+	border-bottom-width : 1px;	/* 下境界線 */
+	border-bottom-style : solid;	/* 下境界線の種類 */
+	border-bottom-color : #0FBCED;/* 下境界線の色 */
+
+}
+/*
+h3.title {
+	font-weight: bold;
+	color :white;
+	text-align : left;
+	letter-spacing : 1px;
+	padding-left : 0.5em;
+	margin-bottom: 5px;
+	line-height : 2em;
+  	background-color: #0FBCED;
+	
+}
+*/
+/*
 .impact:first-letter {
 	font-weight: bold;
 	font-size: 200%;
 }
+*/
+/*
+.impact:first-letter {
+	color: white;
+  	background-color: black;
+  	border-radius: 1px;
+  	box-shadow: 2px 2px 0 #0FBCED;
+  	font-size: 200%;
+  	padding: 2px 2px;
+  	margin-right: 4px;
+  	float: left;
+}
+*/
